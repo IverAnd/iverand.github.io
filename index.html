@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Simple Gallery</title>
+    <title>Ivar Anderson</title>
     <meta name="description" content="Responsive gallery one-page template template">
     <meta name="keywords" content="gallery, gallery template, html5 template, css3 template">
     <link rel="shortcut icon" href="favicon.ico">
@@ -13,19 +13,64 @@
     <link rel="apple-touch-icon-precomposed" href="static/images/favicons/apple-touch-icon-precomposed.png">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans&amp;subset=latin,cyrillic%7CPT+Serif&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="static/css/screen.min.css">
+
+
+    <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: rgb(70, 66, 66);
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          margin-bottom: -5px;
+          text-decoration: none;
+        }
+        
+        li a:hover:not(.active) {
+          background-color: rgb(113, 113, 113);
+        }
+        
+        .active {
+          background-color: #375b9f;
+        }
+
+        .logo{
+            width: 20px;
+            margin:-15x -10px -10px -10px;
+        }
+        
+        </style>
 </head>
 
 
 
 <body>   
-<hader class="page-header">
+<header class="page-header">
+    <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="aboutMe.html">About Me</a></li>
+        <li><a href="#news">ivarandersonart@gmail.com</a></li>
+        <li style="float:right"><a class="active" href="https://github.com/ivar5"><img class="logo" src="githubSmall.png"></a></li>
+        <li style="float:right"><a class="active" href="https://www.linkedin.com/in/ivar-anderson-35829a171/"><img class="logo" src="linkedinLogo.png"></a></li>
+    </ul>
+    
     <div class="page-header__inner">
         <div class="page-header__group">
             <h1 class="page-header__title">Ivar Anderson</h1>
-            <h2 class="gallery__context">ivarandersonart@gmail.com</h2>
         </div>
     </div>
-</hader>
+</header>
 
 <div class="page-content">
     <main class="page-content__main">
@@ -163,6 +208,11 @@
                                     </figure>
                                 </div>
                             </div>
+                        </div>
+
+                        <div>
+                            <h1>Demo Reel</h1>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/gyN9OZuAVVM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
 
                     </div>
